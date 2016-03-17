@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="net.one97.airtel.cricketteamselector.Ortho"
+    tools:showIn="@layout/activity_ortho">
+
+    <LinearLayout
+        android:id="@+id/layout_dental_lab_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denture Lab Name"
+            android:layout_alignParentLeft="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_dental_lab_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_dental_lab_label"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <Spinner
+            android:id="@+id/input_dental_lab_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/android_dental_lab_collections"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_patient_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_dental_lab_info"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <EditText
+                android:id="@+id/input_patient_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Patient's Name"
+                android:singleLine="true"
+                android:autoText="false" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_patient_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <EditText
+                android:id="@+id/input_patient_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_doctor_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_patient_info"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <EditText
+                android:id="@+id/input_doctor_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Doctor's Name"
+                android:singleLine="true"
+                android:text="Doctor&apos;s Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_clinic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <EditText
+                android:id="@+id/input_clinic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Clinic Name"
+                android:singleLine="true"
+                android:text="Clinic Name" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_denture_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_doctor_info"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Denture Type"
+            android:layout_alignParentLeft="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_endo_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_denture_type"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_denture_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<EditText
+                android:id="@+id/input_denture_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Denture Type "
+                android:singleLine="true" />-->
+            <Spinner
+                android:id="@+id/input_denture_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/android_denture_type_collections"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_denture_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_endo_type"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denture Name"
+            android:layout_alignParentLeft="true"/>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_denture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_denture_name"
+        android:layout_weight="0.3">
+
+        <!--<EditText
+            android:id="@+id/input_denture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Denture"
+            android:singleLine="true" />-->
+        <Spinner
+            android:id="@+id/input_denture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/android_denture_name_collections"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_denture_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_layout_denture"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shade"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Priority"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_teeth_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_denture_label"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_shade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+
+            <!--<EditText
+                android:id="@+id/input_shade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Shade "
+                android:singleLine="true" />-->
+
+            <Spinner
+                android:id="@+id/input_shade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/android_shade_collections"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+
+            <!--<EditText
+                android:id="@+id/input_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Priority"
+                android:singleLine="true" />-->
+            <Spinner
+                android:id="@+id/input_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/android_priority_collections"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_delivery_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+
+            <EditText
+                android:id="@+id/input_delivery_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="DOD"
+                android:singleLine="true"
+                android:text="DOD" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_teeth_info"
+        android:layout_weight="0.3">
+
+        <EditText
+            android:id="@+id/input_teeth_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comments"
+            android:singleLine="true"
+            android:text="Comments" />
+    </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>

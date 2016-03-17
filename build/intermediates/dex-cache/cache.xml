@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/classes-bf2d14cc7b8272e10ffe4e3140111403a2c4645a.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/classes-1612fd31b18256b89e15f9ac724bc98a4610317e.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/classes-0a9840e8a88b45e3ce7ad1bb142a65ad17f05f92.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85ccb558dc8258ecf4f0a19e97a3114ec2c64cb4">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/classes-7f8265483ee43e3154023fac30fcd19731413489.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-10e2aa0ccd9dcd412771a3552da7f0fe783b8db7.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-e3fcc3ba0930472cba5c2d88c398c6b035c49a5d.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/classes-62308e279b39a868f0ad161b883c795bb750224b.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/classes-5a23a6835c332ec2d985b740259969ed4a86298c.jar" />
+    </item>
+    <item
+        jar="/Users/rakumar/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/rakumar/Documents/DentistArena/Krown/DenTrac/app/build/intermediates/pre-dexed/debug/library-2.4.0-1aa608813075b577aae12c17e1eadb7d6025f5aa.jar" />
+    </item>
+
+</items>

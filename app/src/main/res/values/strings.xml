@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Krown</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <!-- Drawer menu name-->
+    <string name="home_string">Home</string>
+    <string name="appointment_string">Appointment</string>
+    <string name="profile_string">Profile</string>
+    <string name="order_string">Order</string>
+    <string name="about_string">About</string>
+    <string name="gugly_questions_string">Gugly Questions</string>
+    <string name="schedule_string">Schedule</string>
+    <string name="leader_board_string">Leaderboard</string>
+    <string name="rules_and_rewards_string">Rules &amp; Rewards</string>
+    <string name="support_string">Support</string>
+    <string name="sign_out_string">Sign Out</string>
+
+    <string name="logo">Airtel</string>
+    <string name="subheader">Subheader</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="support_txt">I have tried many options but my webview does not scrolls vertically as it scrolls fine horizontally. I have added webview in my android app to show some web content in the app. The content is just text. But it is more than the height of the webview so I want to provide the facility to the user to scroll it to watch the next page content. But webview doesnt scrolls horizontally.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gugly_question">Gugly Question</string>
+    <string name="gugly_play">Play Now</string>
+    <string name="today_match">Today\'s Matches</string>
+    <string name="today_match_detail">1st ODI Match at Mohali- India vs England</string>
+    <!--Home Screen text-->
+    <string name="my_team">My Team</string>
+    <string name="title_activity_book_appointment">Add New Appointment</string>
+    <string name="title_activity_add_patient">AddPatient</string>
+    <string name="title_activity_select_patient">SelectPatient</string>
+    <string name="title_activity_endo">Endo</string>
+
+    <string-array name="android_shade_collections">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+    </string-array>
+    <string-array name="android_priority_collections">
+        <item>Urgent</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="android_dental_lab_collections">
+        <item>Amin Dental Lab</item>
+        <item>Dentaire Solutions Pvt Ltd</item>
+    </string-array>
+    <string-array name="android_denture_name_collections">
+        <item>Denture 1</item>
+        <item>Denture 2</item>
+    </string-array>
+    <string-array name="android_denture_type_collections">
+        <item>Denture Type 1</item>
+        <item>Denture Type 2</item>
+    </string-array>
+
+    <string name="title_activity_prostho">Prostho</string>
+    <string name="title_activity_ortho">Orthodontic Order</string>
+    <string name="title_activity_preventive">Preventive Dentistry</string>
+</resources>

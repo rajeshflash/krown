@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:title="@string/home_string" />
+
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:title="@string/profile_string" />
+
+        <item
+            android:id="@+id/appointment"
+            android:checked="false"
+            android:title="@string/appointment_string" />
+
+        <item
+            android:id="@+id/orders"
+            android:checked="false"
+            android:title="@string/order_string" />
+
+
+        <item
+            android:id="@+id/about"
+            android:checked="false"
+            android:title="@string/about_string" />
+        <item
+            android:id="@+id/support"
+            android:checked="false"
+            android:title="@string/support_string" />
+        <item
+            android:id="@+id/sign_out"
+            android:checked="false"
+            android:title="@string/sign_out_string" />
+
+    </group>
+</menu>

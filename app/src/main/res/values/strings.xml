@@ -36,6 +36,14 @@
     <string name="title_activity_select_patient">SelectPatient</string>
     <string name="title_activity_endo">Endo</string>
 
+    <string-array name="android_dropdown_arrays">
+        <item>Urgent</item>
+        <item>Normal</item>
+    </string-array>
+    <string name="title_activity_prostho">Prostho</string>
+    <string name="title_activity_order">Order</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
     <string-array name="android_shade_collections">
         <item>A1</item>
         <item>A2</item>
@@ -58,7 +66,6 @@
         <item>Denture Type 2</item>
     </string-array>
 
-    <string name="title_activity_prostho">Prostho</string>
     <string name="title_activity_ortho">Orthodontic Order</string>
     <string name="title_activity_preventive">Preventive Dentistry</string>
 </resources>

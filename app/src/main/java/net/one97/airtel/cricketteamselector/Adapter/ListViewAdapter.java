@@ -17,7 +17,6 @@ import com.daimajia.swipe.adapters.BaseSwipeAdapter;
 import net.one97.airtel.cricketteamselector.Activity.BookAppointment;
 import net.one97.airtel.cricketteamselector.Activity.Endo;
 import net.one97.airtel.cricketteamselector.Activity.Prostho;
-import net.one97.airtel.cricketteamselector.Ortho;
 import net.one97.airtel.cricketteamselector.R;
 
 public class ListViewAdapter extends BaseSwipeAdapter {
@@ -46,35 +45,21 @@ public class ListViewAdapter extends BaseSwipeAdapter {
         swipeLayout.setOnDoubleClickListener(new SwipeLayout.DoubleClickListener() {
             @Override
             public void onDoubleClick(SwipeLayout layout, boolean surface) {
-                Toast.makeText(mContext, "Double Click", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "DoubleClick", Toast.LENGTH_SHORT).show();
             }
         });
         v.findViewById(R.id.endo).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, "Click Endo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "click endo", Toast.LENGTH_SHORT).show();
                 startNewActivity();
             }
         });
         v.findViewById(R.id.prostho).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, "Click Prostho", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "click prostho", Toast.LENGTH_SHORT).show();
                 startNewActivity1();
-            }
-        });
-        v.findViewById(R.id.ortho).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(mContext, "Click Ortho", Toast.LENGTH_SHORT).show();
-                startOrthoActivity();
-            }
-        });
-        v.findViewById(R.id.preventive).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(mContext, "Click Preventive", Toast.LENGTH_SHORT).show();
-                startPreventiveActivity();
             }
         });
         return v;
@@ -83,7 +68,7 @@ public class ListViewAdapter extends BaseSwipeAdapter {
     @Override
     public void fillValues(int position, View convertView) {
         TextView t = (TextView)convertView.findViewById(R.id.start_time_textview);
-        //t.setText((position + 1) + ".");
+        t.setText((position + 1) + ".");
     }
 
     @Override
@@ -108,17 +93,6 @@ public class ListViewAdapter extends BaseSwipeAdapter {
     }
     public void startNewActivity1(){
         Intent intent = new Intent(mContext, Prostho.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        mContext.startActivity(intent);
-    }
-    public void startOrthoActivity(){
-        Intent intent = new Intent(mContext, Ortho.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        mContext.startActivity(intent);
-    }
-
-    public void startPreventiveActivity(){
-        Intent intent = new Intent(mContext, Ortho.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
     }

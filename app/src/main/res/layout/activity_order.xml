@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="net.one97.airtel.cricketteamselector.Activity.AddPatient">
+    tools:context="net.one97.airtel.cricketteamselector.Activity.Order">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -17,20 +17,26 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/PrimaryColor"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:navigationIcon="@drawable/cancel_icon"/>
-        <TextView
-            android:id="@+id/save_patient"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="save"
-            android:layout_gravity="end"
-            android:layout_marginRight="10dp"
-            android:textStyle="bold"
-            android:textSize="18dp"/>
-    </android.support.design.widget.AppBarLayout>
+            app:popupTheme="@style/AppTheme.PopupOverlay">
 
-    <include layout="@layout/content_add_patient" />
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:background="@color/PrimaryColor"
+            android:elevation="6dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tab_layout" />
+    </android.support.design.widget.AppBarLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>

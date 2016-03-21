@@ -38,13 +38,9 @@
             android:label="@string/title_activity_prostho"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Ortho"
-            android:label="@string/title_activity_ortho"
+            android:name=".Activity.Order"
+            android:label="@string/title_activity_order"
             android:theme="@style/AppTheme" />
-        <activity
-            android:name=".preventive"
-            android:label="@string/title_activity_preventive"
-            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

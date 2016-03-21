@@ -182,7 +182,7 @@
                 android:layout_marginRight="5dp"
                 android:text="01:00 PM"
                 android:textColor="@color/textGreyBlack"
-                android:textSize="14dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/end_time_textview"
@@ -193,7 +193,7 @@
                 android:layout_marginRight="5dp"
                 android:text="01:30 PM"
                 android:textColor="@color/textGreyBlack"
-                android:textSize="14dp" />
+                android:textSize="16dp" />
 
 
         </LinearLayout>
@@ -214,7 +214,7 @@
                 android:layout_marginRight="5dp"
                 android:text="Mr Arun Lal"
                 android:textColor="@color/textColorBlack"
-                android:textSize="14dp" />
+                android:textSize="16dp" />
 
 
             <TextView
@@ -226,7 +226,7 @@
                 android:layout_marginRight="5dp"
                 android:text="Dr Gupta"
                 android:textColor="@color/textGreyBlack"
-                android:textSize="14dp" />
+                android:textSize="16dp" />
 
         </LinearLayout>
 
@@ -246,7 +246,7 @@
                 android:layout_weight="1"
                 android:text="Cancelled"
                 android:textColor="@color/textBloodRed"
-                android:textSize="14dp" />
+                android:textSize="16dp" />
 
 
         </LinearLayout>

@@ -37,7 +37,7 @@
 
         <Spinner
             android:id="@+id/input_dental_lab_info"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/android_dental_lab_collections"/>
 
@@ -100,8 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Doctor's Name"
-                android:singleLine="true"
-                android:text="Doctor&apos;s Name" />
+                android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -115,8 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Clinic Name"
-                android:singleLine="true"
-                android:text="Clinic Name" />
+                android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
     <LinearLayout
@@ -243,7 +241,7 @@
 
             <Spinner
                 android:id="@+id/input_shade"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/android_shade_collections"/>
         </android.support.design.widget.TextInputLayout>
@@ -262,7 +260,7 @@
                 android:singleLine="true" />-->
             <Spinner
                 android:id="@+id/input_priority"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/android_priority_collections"/>
 

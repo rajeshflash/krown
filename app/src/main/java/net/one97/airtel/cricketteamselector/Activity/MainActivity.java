@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.orders:
                         Toast.makeText(getApplicationContext(), "orders", Toast.LENGTH_SHORT).show();
+                        startOrder();
                         return true;
                     case R.id.about:
                         Toast.makeText(getApplicationContext(), "about", Toast.LENGTH_SHORT).show();
@@ -188,6 +189,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void startSelectPatient() {
         Intent intent = new Intent(this, SelectPatient.class);
+        startActivity(intent);
+    }
+
+    public void startOrder() {
+        Intent intent = new Intent(this, Order.class);
         startActivity(intent);
     }
 

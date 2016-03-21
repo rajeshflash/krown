@@ -10,7 +10,6 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
@@ -19,8 +18,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/PrimaryColor"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:navigationIcon="@drawable/cancel_icon"
-            android:paddingTop="@dimen/navigation_elevation">
+            app:navigationIcon="@drawable/cancel_icon">
 
             <TextView
                 android:id="@+id/endo_label"
